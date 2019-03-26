@@ -17,7 +17,7 @@ title: 722
 email: all@722.network
 description: >- # this means to ignore newlines until "baseurl:"
   A group of friends hacking stuff together.
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+baseurl: "/page" # the subpath of your site, e.g. /blog
 url: "https://722-network.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  722-network
 
