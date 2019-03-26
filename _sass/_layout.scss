@@ -1,0 +1,19 @@
+// Layout
+//
+// Styles for managing the structural hierarchy of the site.
+
+.container {
+  max-width: 48rem;
+  padding-left:  1.5rem;
+  padding-right: 1.5rem;
+  margin-left:  auto;
+  margin-right: auto;
+  background: #fff;
+  background: rgb(0, 0, 0);
+  background: rgba(255, 255, 255, 0.95);
+}
+
+footer {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}

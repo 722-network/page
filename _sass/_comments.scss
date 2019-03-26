@@ -1,0 +1,25 @@
+#comments {
+  padding-top: 30px;
+}
+
+.comment {
+  padding-bottom: 12px;
+  border-bottom: 1px solid #cecece;
+  margin-bottom: 45px;
+  .comment_author {
+    font-size: 85%;
+    margin: 0px;
+    color: #268bd2;
+  }
+  time {
+    font-size: 70%;
+  }
+}
+
+.comment_message {
+  font-size: 80%;
+  margin-top: 20px;
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 95%;
+  }
+}
