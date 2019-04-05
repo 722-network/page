@@ -1,0 +1,35 @@
+.bar-722 {
+	background-color: #4FC153;
+	margin-bottom: 20px;
+
+	a {
+		color: black;
+	}
+
+	.bar-separator {
+		margin: 0px 10px;
+	}
+}
+#blog {
+	background-color: #f7f7f7;
+
+
+	.post-list-header {
+		width: 100%;
+		background-color: #4FC153;
+		border-radius: 10px 10px 0px 0px;
+		text-align: center;
+	}
+
+	.post-list {
+		list-style-type: none;
+		padding-inline-start: 0px;
+	}
+
+	.post-item {
+		background-color: #C9DF8A;
+		margin: 10px 0px;
+		border-radius: 5px;
+		padding: 10px;
+	}
+}
