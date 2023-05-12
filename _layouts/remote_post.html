@@ -1,0 +1,26 @@
+---
+layout: blog
+---
+<article class="post container">
+  {% if page.page_title %}
+    <h1 class="post-title">{{ page.title }}</h1>
+    <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date_to_string }}</time>
+  {% endif %}
+  <div class="remote-content"></div>
+</article>
+
+<script>
+  var post = $(".remote-content")[0];
+  $(post).ready(function(){
+    var url = "{{ page.raw_source }}",
+      req = new XMLHttpRequest();
+    req.open("GET", url);
+    req.addEventListener("load", function(e) {
+      var res = e.currentTarget.response,
+        converter = new showdown.Converter(),
+        resHtml = converter.makeHtml(res);
+      $(post).html(resHtml)
+    })
+    req.send();
+  })
+</script>
