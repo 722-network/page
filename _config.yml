@@ -17,18 +17,12 @@ title: 722
 email: all@722.network
 description: >- # this means to ignore newlines until "baseurl:"
   A group of friends hacking stuff together.
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://722.network" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  722-network
-
-paginate: 10
 
 # Build settings
 markdown: kramdown
-theme: minima
-plugins:
-  - jekyll-feed
-  - jekyll-paginate
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
